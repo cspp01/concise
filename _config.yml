@@ -2,15 +2,83 @@
 # html lang
 language: en
 
+# main information
+my_img: http://ooa3lxrpg.bkt.clouddn.com/b.jpg?imageView2/1/w/120/h/120/q/75
+my_name: cc
+autograph: 求知若饥 虚心若愚
+social: /
+
 # main menu navigation
 menu:
   Home: /
   About: /about
   Contact: /contact
   Archives: /archives
+  tags: /tags
+
+#logo information
+logo:
+  name: concise.theme
+  superscript: hexo
+  describe:
+    one: concise version 1.0.0
+    two: Simple and practical hexo personal blog theme.
+    three: The freedom to choose
+
+# main social
+my_social:
+  github: /
+  twitter: /
+  weibo: /
+  豆瓣: /
+  知乎: /
 
 # Miscelaneous
 favicon: /favicon.ico
+
+# main links
+my_links:
+  ccblog:
+    href: /
+    img: http://ooa3lxrpg.bkt.clouddn.com/timg.jpg
+  boc:
+    href: /
+    img: http://ooa3lxrpg.bkt.clouddn.com/timg%20%282%29.jpg
+  haha:
+    href: /
+    img: http://ooa3lxrpg.bkt.clouddn.com/timg%20%283%29.jpg
+  pp:
+    href: /
+    img: http://ooa3lxrpg.bkt.clouddn.com/timg%20%283%29.jpg
+  oop:
+    href: /
+    img: http://ooa3lxrpg.bkt.clouddn.com/timg%20%281%29.jpg
+
+# algolia search
+algolia:
+  applicationID: 148WKKLBJ2
+  apiKey: 1b27867f0ba7ad358543a84d6d30bcb3
+  #adminApiKey: d01e3e88a1d84bfc40b91d6d77451039
+  indexName: test
+  chunkSize: 5000
+  hits:
+    per_page: 10
+  labels:
+    input_placeholder: 请输入要搜索的字段...
+    hits_empty: 没有查找到和 「${query}」相关的内容
+    hits_stats: 总共${hits} 条相关条目，使用了 ${time} 毫秒
+
+
+  #fields:
+   # - title
+   # - slug
+   # - path
+   # - content:strip
+
+#footer github start
+github:
+  user: cspp01
+  repo: cspp01.github.io
 
 # stylesheets loaded in the <head>
 stylesheets:

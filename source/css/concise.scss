@@ -1,0 +1,24 @@
+@import 'public/base';
+@import 'public/public';
+@import 'thirdparty/algolia';
+#wrapper{
+  width:100%;
+  position:relative;
+}
+#bgg{
+  position:absolute;
+  top:338px;
+  left:0;
+  width:100%;
+  height:235px;
+  background-color:$mainColor;
+  z-index:1;
+  background-image:url('../bg-grey.png');
+  background-repeat:repeat-x;
+}
+@import 'partials/header';
+@import 'partials/logo';
+@import 'partials/main';
+@import 'page';
+@import 'category/category';
+@import 'partials/footer';

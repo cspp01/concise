@@ -1,0 +1,9 @@
+<% if (page.total > 1){ %>
+<nav id="index-pading">
+    pages:&nbsp;&nbsp;
+    <%- paginator({
+        prev_text: '<span class="index-prev">«&nbsp;</span>',
+        next_text: '<span class="index-next">&nbsp;»</span>'
+    }) %>
+</nav>
+<% } %>

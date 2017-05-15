@@ -1,0 +1,101 @@
+.post{
+  margin-top:20px;
+  padding:0 20px 52px 17px;
+  border-bottom:1px dotted #ccc;
+  @include box-shadow(0,1px,1px,0,rgba(255,255,255,.5));
+  margin-bottom:40px;
+  @include transition(all,.3s);
+  @include border-radius(10px);
+  &:hover{
+    //box-shadow:0 0 5px 0 #999;
+  }
+  h3{
+    font-size:36px;
+    font-weight:normal;
+    position:relative;
+    a{
+      @include transition(all,.3s);
+      display:inline-block;
+      height:100%;
+      &:hover{
+        margin-left:5px;
+        color:$secondaryColor;
+        &:after{
+          width:15px;
+          left:-40px;
+        }
+      }
+      &:after{
+        content:'';
+        display:block;
+        width:5px;
+        height:100%;
+        background-color:$secondaryColor;
+        position:absolute;
+        top:0;
+        left:-38px;
+        @include transition(all,.3s);
+      }
+    }
+  }
+  p{
+    $co:#999;
+    padding:15px 0 0;
+    font-size:16px;
+    color:$co;
+    .tag{
+      a{
+        color:$mainColor;
+        @include transition(all,.3s);
+        &:hover{
+          color:$secondaryColor;
+        }
+      }
+    }
+  }
+  $postImageW:600px;
+  $postImageH:160px;
+  .post-image{
+    margin:35px 0;
+    max-width:$postImageW;
+    height:$postImageH;
+    overflow:hidden;
+    @include border-radius(5px);
+    position:relative;
+    img{
+      max-width:110%;
+      width:$postImageW;
+      @include transition(all,1s);
+      position:absolute;
+      top:50%;
+      left:50%;
+      margin:-80px 0 0 -300px;
+      &:hover{
+        width:$postImageW+30px;
+        cursor:pointer;
+        margin:-84px 0 0 -315px;
+      }
+    }
+  }
+  .page-content{
+    font-size:14px;
+    color:#4c4c4c;
+    line-height:25px;
+  }
+  .post-readmore{
+    margin-top:28px;
+    a{
+      padding:7px 19px;
+      background-color:$mainColor;
+      @include border-radius(20px);
+      display:inline-block;
+      color:#fff;
+      font-size:14px;
+      @include transition(all,.3s);
+      &:hover{
+        background-color:$secondaryColor;
+      }
+    }
+  }
+}
+@import 'paging';

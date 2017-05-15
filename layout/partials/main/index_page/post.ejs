@@ -1,0 +1,26 @@
+<%if(site.posts.length>0){%>
+    <%page.posts.sort('date', -1).each(function(post){%>
+        <article class="post">
+            <h3><a href="<%- url_for(post.path)%>"><%= post.title%></a></h3>
+            <p>
+                <span class="visitors">visitors 4</span>&nbsp;&nbsp;•&nbsp;&nbsp;
+                <span class="tag">
+                    <%- list_categories(post.categories, {
+                        show_count: false,
+                        class: 'article-category',
+                        style: 'none',
+                        separator: '&nbsp;,&nbsp;'
+                    }) %>
+                </span>&nbsp;&nbsp;•&nbsp;&nbsp;
+                <span class="date"><%= date(post.date,'YYYY,MM,DD')%></span>
+            </p>
+            <div class="post-image">
+                <img src="<%- post.pho%>">
+            </div>
+            <div class="page-content"><%- post.content%></div>
+            <div class="post-readmore">
+                <a href="">Read More</a>
+            </div>
+        </article>
+    <%})%>
+<%}%>

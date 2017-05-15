@@ -1,0 +1,47 @@
+<div class="my">
+    <div class="my-information">
+        <div class="my-img">
+            <img src="<%- url_for(theme.my_img)%>" rel="图片">
+            <a href="<%- url_for(theme.social)%>"></a>
+        </div>
+        <span><%= theme.my_name%></span>
+        <p><%= theme.autograph%></p>
+    </div>
+    <p class="my-social">
+        <% for(name in theme.my_social){ %>
+            <a href="<%- url_for(theme.my_social[name])%>" class="my-social-me<%-+Math.floor(Math.random()*5+1)%>"><%=name%></a>
+        <%}%>
+    </p>
+    <div class="my-post">
+        <a href="">
+            <strong><%=site.posts.length%></strong><br>
+            <span>posts</span>
+        </a>
+        <a href="">
+            <strong><%=site.categories.length%></strong><br>
+            <span>categories</span>
+        </a>
+        <a href="">
+            <strong><%=site.tags.length%></strong><br>
+            <span>tags</span>
+        </a>
+    </div>
+    <div class="my-search">
+        <a href="javascript:void(0)" class="popup-trigger">search</a>
+    </div>
+    <div class="my-rss">
+        <a href="">rss</a>
+    </div>
+    <div class="my-links">
+        <ul class="clearfix">
+            <% for(link in theme.my_links){%>
+            <li>
+                <a href="<%- url_for(theme.my_links[link].href)%>">
+                    <img src="<%- url_for(theme.my_links[link].img)%>">
+                    <p><%= link%></p>
+                </a>
+            </li>
+            <%}%>
+        </ul>
+    </div>
+</div>

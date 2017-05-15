@@ -1,0 +1,27 @@
+<head>
+    <meta charset="utf-8">
+    <title>concise</title>
+    <%- css('css/concise.css')%>
+    <%- js('js/concise.js')%>
+    <script type="text/javascript" id="hexo.configuration">
+        var CONFIG = {
+            root: '/',
+            algolia: {
+                applicationID: '<%= theme.algolia.applicationID%>',
+                apiKey: '<%= theme.algolia.apiKey%>',
+                indexName: '<%= theme.algolia.indexName%>',
+                hits: {
+                    per_page: '<%theme.algolia.hits.per_page%>'
+                },
+                labels: {
+                    input_placeholder: '<%= theme.algolia.labels.input_placeholder%>',
+                    hits_empty: '<%= theme.algolia.labels.hits_empty%>',
+                    hits_stats: '<%= theme.algolia.labels.hits_stats%>'
+                }
+            }
+        };
+    </script>
+    <script src="http://opu30aljn.bkt.clouddn.com/jquery.js"></script>
+    <script src="http://opu30aljn.bkt.clouddn.com/instantsearch.js"></script>
+    <script src="./js/thirdparty/algolia.js"></script>
+</head>
