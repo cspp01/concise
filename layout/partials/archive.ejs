@@ -1,0 +1,30 @@
+<%if(site.posts.length>0){%>
+    <%if(pageName=='index'){%>
+        <%page.posts.sort('date', -1).each(function(index_post){%>
+            <%- partial('article', {post: index_post, index: true}) %>
+        <%})%>
+    <%}else{%>
+        <%var num=1;%>
+<%var name='';if(pageName=='tag') {name='tags';}else if(pageName=='category') {name='category';}else if(pageName=='archive') {name='all';}%>
+        <section id="archive" class="clearfix">
+            <header>
+                <%=page.category||page.tag||'articles'%><span><%=name%></span>
+            </header>
+            <%page.posts.sort('date', -1).each(function(_post){%>
+                <%if(num%2!=0){%>
+                    <article class="archive-page">
+                        <header><a href="<%- url_for(_post.path)%>"><%=_post.title%></a></header>
+                        <time><%= date(_post.date,'YYYY,MM,DD')%></time>
+                    </article>
+                <%}else{%>
+                    <article class="archive-page archive-right">
+                        <header><a href="<%- url_for(_post.path)%>"><%=_post.title%></a></header>
+                        <time><%= date(_post.date,'YYYY,MM,DD')%></time>
+                    </article>
+                <%}%>
+                <%num++;%>
+            <%})%>
+        </section>
+    <%}%>
+<%}%>
+<%- partial('post/paging')%>

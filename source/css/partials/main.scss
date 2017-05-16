@@ -13,12 +13,12 @@
     width:$mainLeft;
     float:left;
     padding:20px;
-    @import 'main/index_page/post';
+    @import 'post';
   }
   #main-right{
     width:100%-$mainLeft;
     float:right;
     padding:40px 20px 0 0;
-    @import 'main/my';
+    @import 'my';
   }
 }
