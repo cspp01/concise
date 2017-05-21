@@ -24,7 +24,7 @@ logo:
     one: concise version 1.0.0
     two: Simple and practical hexo personal blog theme.
     three: The freedom to choose
-
+# my
 # main social
 my_social:
   github: /
@@ -35,6 +35,9 @@ my_social:
 
 # Miscelaneous
 favicon: /favicon.ico
+
+# rss
+rss: true
 
 # main links
 my_links:
@@ -54,6 +57,10 @@ my_links:
     href: /
     img: http://ooa3lxrpg.bkt.clouddn.com/timg%20%281%29.jpg
 
+# content char length
+index_pagelength: 200
+
+# search
 # algolia search
 algolia:
   applicationID: 148WKKLBJ2
@@ -68,6 +75,25 @@ algolia:
     hits_empty: 没有查找到和 「${query}」相关的内容
     hits_stats: 总共${hits} 条相关条目，使用了 ${time} 毫秒
 
+# comment
+# netease cloud comment
+netease_cloud_comment:
+  open: true
+  productKey: 6f0492a87f74476e9df370e5e7ce2270
+  hotPage: false
+
+
+# uYan comment
+uYan:
+  open: false
+
+# share
+baidushare:
+  open: false
+
+# statistical
+umen:
+ open: false
 
   #fields:
    # - title
@@ -75,7 +101,7 @@ algolia:
    # - path
    # - content:strip
 
-#footer github start
+# footer github start
 github:
   user: cspp01
   repo: cspp01.github.io

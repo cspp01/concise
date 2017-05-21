@@ -44,9 +44,14 @@
   article.archive-page{
     position:relative;
     width:50.1%;
-    margin:20px 0;
+    margin:20px 0 20px;
+    opacity:0;
+    @include transition(all,1s);
     //float:left;
     clear:both;
+    &.transition{
+      opacity:1;
+    }
     &:before{
       content:'';
       display:block;
@@ -96,16 +101,19 @@
     &:hover{
       &:before{
         background:#333;
+        transform:scale(1.5);
       }
       header a {
         background: $mainColor;
+        transform:scale(1.05);
         color: #fff;
         &:before {
           border-color: transparent $mainColor transparent $mainColor;
         }
       }
       time{
-        color:#333;
+        color:$mainColor;
+        transform:scale(1.05);
       }
     }
     &.archive-right{

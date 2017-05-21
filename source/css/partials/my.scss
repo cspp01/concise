@@ -168,37 +168,38 @@
     }
   }
   $btnColor:$secondaryColor;
-  .my-rss,.search{
-    padding:20px 0;
-    text-align:center;
-    border-bottom:1px dotted #ccc;
-    a{
-      display:inline-block;
-      width:90%;
-      height:50px;
-      @include border-radius(25px);
-      border:1px solid #999;
-      text-transform:uppercase;
-      line-height:50px;
-      color:#999;
-      font-size:20px;
-      @include transition(all,.5s);
-      &:hover{
-        background-color:$btnColor;
-        color:#fff;
+  .search-rss{
+    .my-rss,.search{
+      padding:20px 0;
+      text-align:center;
+      a{
+        display:inline-block;
+        width:90%;
+        height:50px;
+        @include border-radius(25px);
+        border:1px solid #999;
+        text-transform:uppercase;
+        line-height:50px;
+        color:#999;
+        font-size:20px;
+        @include transition(all,.5s);
+        &:hover{
+          background-color:$btnColor;
+          color:#fff;
+          border-color:$btnColor;
+        }
+        &:visited{
+        }
+      }
+    }
+    .my-search{
+      @extend .my-rss;
+      a{
         border-color:$btnColor;
-      }
-      &:visited{
+        color:$btnColor;
       }
     }
-  }
-  .my-search{
-    @extend .my-rss;
-    border-bottom:none;
-    a{
-      border-color:$btnColor;
-      color:$btnColor;
-    }
+    border-bottom:1px dotted #ccc;
   }
   .my-links{
     margin-top:20px;
@@ -236,6 +237,14 @@
           }
         }
       }
+    }
+  }
+  .ho-page{
+    .tie-hot-news span{
+      float:left;
+    }
+    .tie-hot-news .hot-news-list .hot-news .news-essay{
+      width:auto;
     }
   }
 }

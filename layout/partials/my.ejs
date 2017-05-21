@@ -17,20 +17,24 @@
             <strong><%=site.posts.length%></strong><br>
             <span>posts</span>
         </a>
-        <a href="/tags">
+        <a href="/categories">
             <strong><%=site.categories.length%></strong><br>
             <span>categories</span>
         </a>
-        <a href="/categories">
+        <a href="/tags">
             <strong><%=site.tags.length%></strong><br>
             <span>tags</span>
         </a>
     </div>
-    <div class="my-search">
-        <a href="javascript:void(0)" class="popup-trigger">search</a>
-    </div>
-    <div class="my-rss">
-        <a href="">rss</a>
+    <div class="search-rss">
+        <div class="my-search">
+            <a href="javascript:void(0)" id ='my-search-a' class="popup-trigger">search</a>
+        </div>
+        <%if(theme.rss){%>
+            <div class="my-rss">
+                <a href="/atom.xml">rss</a>
+            </div>
+        <%}%>
     </div>
     <div class="my-links">
         <ul class="clearfix">
@@ -43,5 +47,10 @@
             </li>
             <%}%>
         </ul>
+    </div>
+    <div class="hot-page">
+        <% if(theme.netease_cloud_comment.hotPage){%>
+            <%- partial('thirdparty/comment/netEaseCloudComment',{hotPage:false,comment:false})%>
+        <%}%>
     </div>
 </div>

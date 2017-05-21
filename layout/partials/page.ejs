@@ -1,0 +1,27 @@
+<article id="post">
+    <h1><%=page.title%></h1>
+    <p>
+        <span class="visitors">visitors 4</span>&nbsp;&nbsp;•&nbsp;&nbsp;
+        <span class="tag">
+      <%- list_categories(page.categories, {
+          show_count: false,
+          class: 'article-category',
+          style: 'none',
+          separator: '&nbsp;,&nbsp;'
+      }) %>
+    </span>&nbsp;&nbsp;•&nbsp;&nbsp;
+        <span class="date"><%= date(page.date,'YYYY,MM,DD')%></span>
+    </p>
+    <div id="page-post-content">
+        <%-page.content%>
+    </div>
+</article>
+<<%- partial('../additional/exceptional')%>
+<% if(theme.baidushare.open){%>
+<%- partial('../thirdparty/share/baiduShare')%>
+<%}%>
+<% if(theme.netease_cloud_comment.open){%>
+<%- partial('../thirdparty/comment/netEaseCloudComment',{comment:true,hotPage:false})%>
+<%}else if(theme.uYan.open){%>
+<%- partial('../thirdparty/comment/uYan')%>
+<%}%>

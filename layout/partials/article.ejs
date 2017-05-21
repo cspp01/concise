@@ -13,10 +13,15 @@
         <span class="date"><%= date(post.date,'YYYY,MM,DD')%></span>
     </p>
     <div class="post-image">
-        <img src="<%- post.pho%>">
+        <a href="<%- url_for(post.path)%>"><img src="<%- post.pho%>"></a>
     </div>
-    <div class="page-content"><%- post.content%></div>
+    <%if(theme.index_pagelength||theme.index_pagelength=='0'){%>
+        <% var con=post.content.replace(/<[^<]*>/ig,'').replace(/\r|\n/ig,'').substring(0,theme.index_pagelength)+'...';%>
+        <div class="page-content"><%=con%></div>
+    <%}else{%>
+        <div class="page-content"><%- post.content%></div>
+    <%}%>
     <div class="post-readmore">
-        <a href="">Read More</a>
+        <a href="<%- url_for(post.path)%>">Read More</a>
     </div>
 </article>
