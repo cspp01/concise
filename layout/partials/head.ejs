@@ -1,8 +1,31 @@
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>concise</title>
     <%- css('css/concise.css')%>
     <%- js('js/concise.js')%>
+    <script>
+        (function(){
+            var useragent=navigator.userAgent;
+            console.log(navigator,useragent);
+            var isM;
+            if(useragent.indexOf('iPhone')!=-1){
+                isM=true;
+            }else if(useragent.indexOf('Android ')!=-1){
+                isM=true;
+            }else if(useragent.indexOf('iPad')!=-1){
+                isM=true;
+            }else{
+                isM=false;
+            }
+            if(isM){
+                document.documentElement.style.fontSize=document.documentElement.clientWidth/375*100+'px';
+                window.onresize=function(){
+                    document.documentElement.style.fontSize=document.documentElement.clientWidth/375*100+'px';
+                };
+            }
+        })();
+    </script>
     <script type="text/javascript" id="hexo.configuration">
         var CONFIG = {
             root: '/',

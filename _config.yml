@@ -7,6 +7,7 @@ my_img: http://ooa3lxrpg.bkt.clouddn.com/b.jpg?imageView2/1/w/120/h/120/q/75
 my_name: cc
 autograph: 求知若饥 虚心若愚
 social: /
+logo: concise #<img src="./logo.png">
 
 # main menu navigation
 menu:
@@ -17,7 +18,7 @@ menu:
   tags: /tags
 
 #logo information
-logo:
+inf:
   name: concise.theme
   superscript: hexo
   describe:
@@ -89,12 +90,30 @@ uYan:
 
 # share
 baidushare:
-  open: false
+  open: true
 
 # statistical
 umen:
- open: false
+ open: true
 
+# 阅读数统计
+leancloud_view:
+  open: true
+  sql_name: ccp #leancloud新建的class名字，尽量不要随便更改
+  app_id: GIro8Qd31eQHaDFeUnvpSDaP-gzGzoHsz #你的app_id
+  app_key: ozedpz4nGJSoFS5nR0kLUrXV #你的的app_key
+
+#seo
+#baidu
+seo:
+  baidu: true
+
+# post文章
+# 打赏
+reward:
+  open: false
+  weixing: http://ooa3lxrpg.bkt.clouddn.com/wx.jpg?imageView2/2/w/180 #你的微信收钱二维码图片地址
+  alipay: http://ooa3lxrpg.bkt.clouddn.com/zfb.jpg?imageView2/2/w/180 #你的支付宝收钱二维码图片地址
   #fields:
    # - title
    # - slug
@@ -105,6 +124,11 @@ umen:
 github:
   user: cspp01
   repo: cspp01.github.io
+
+# sidebar
+sidebar:
+  content: left
+  my: right
 
 # stylesheets loaded in the <head>
 stylesheets:

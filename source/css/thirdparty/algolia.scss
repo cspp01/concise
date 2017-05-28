@@ -56,7 +56,7 @@ a.search-result {
   top: 0px;
   left: 0px;
   z-index: 2080;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.7);
 }
 #local-search-input {
   margin-bottom: 10px;
@@ -215,13 +215,43 @@ a.search-result {
 }
 /*custom style*/
 .algolia-popup .popup-btn-close .fa{
-  display:inline-block;
-  background-color:#b82020;
-  @include border-radius(50%);
+  display:block;
   width: 15px;
   height:15px;
   margin-top:5px;
+  position:relative;
+  &:before{
+    content:'';
+    display:block;
+    width:3px;
+    height:20px;
+    transform:rotate(45deg);
+    border-radius:2.5px;
+    background:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-10px 0 0 -1.5px;
+  }
+  &:after{
+    content:'';
+    display:block;
+    width:3px;
+    height:20px;
+    transform:rotate(-45deg);
+    border-radius:2.5px;
+    background:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-10px 0 0 -1.5px;
+  }
   &:hover{
+  }
+}
+.site-search{
+  @media screen and (max-width:980px){
+    font-size:.15rem;
   }
 }
 .algolia-search {

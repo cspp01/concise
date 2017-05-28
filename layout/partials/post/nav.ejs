@@ -1,11 +1,14 @@
 <% if (post.prev || post.next){ %>
-<nav id="article-nav">
+<nav id="article-nav" class="clearfix">
   <% if (post.prev){ %>
     <a href="<%- url_for(post.prev.path) %>" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><%= __('newer') %></strong>
+      <strong class="article-nav-caption"><%= __('上一篇') %></strong>
       <div class="article-nav-title">
-        <% if (post.prev.title){ %>
-          <%= post.prev.title %>
+        <% if (post.prev.title){ var pre%>
+          <%if(post.prev.title.length>25){%>
+          <%pre=post.prev.title.substring(0,25)+' ...';%>
+        <%}else{pre=post.prev.title}%>
+          <%= pre %>
         <% } else { %>
           (no title)
         <% } %>
@@ -14,8 +17,12 @@
   <% } %>
   <% if (post.next){ %>
     <a href="<%- url_for(post.next.path) %>" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><%= __('older') %></strong>
-      <div class="article-nav-title"><%= post.next.title %></div>
+      <strong class="article-nav-caption"><%= __('下一篇') %></strong>
+        <% var nex%>
+        <%if(post.next.title.length>25){%>
+        <%nex=post.next.title.substring(0,25)+' ...';%>
+        <%}else{pre=post.next.title}%>
+      <div class="article-nav-title"><%= nex %></div>
     </a>
   <% } %>
 </nav>

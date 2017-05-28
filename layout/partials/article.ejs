@@ -1,7 +1,13 @@
 <article class="post">
     <h3><a href="<%- url_for(post.path)%>"><%= post.title%></a></h3>
     <p>
-        <span class="visitors">visitors 4</span>&nbsp;&nbsp;•&nbsp;&nbsp;
+        <% if(theme.leancloud_view.open){%>
+            <span class="visitors">visitors
+                <span id="<%- url_for(post.path)%>" class="leancloud_visitors" data-flag-title="<%= post.title%>">
+                    <span class="leancloud-visitors-count">0</span>
+                </span>
+            </span>&nbsp;&nbsp;•&nbsp;&nbsp;
+        <%}%>
         <span class="tag">
                     <%- list_categories(post.categories, {
                         show_count: false,

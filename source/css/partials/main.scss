@@ -9,16 +9,58 @@
   position:relative;
   z-index:2;
   $mainLeft:70%;
+  @media screen and (max-width:980px){
+    width:$mainWidthM;
+    @include border-radius(0);
+    border-width:0;
+  }
   #main-left{
     width:$mainLeft;
-    float:left;
     padding:20px;
     @import 'post';
+    &.left{
+      float:left;
+    }
+    &.right{
+      float:right;
+      text-align:center;
+      h3{
+        a{
+          &:after{
+            display:none;
+          }
+        }
+      }
+    }
+    @media screen and (max-width:980px){
+      width:$mainWidthM;
+    }
   }
   #main-right{
     width:100%-$mainLeft;
-    float:right;
-    padding:40px 20px 0 0;
     @import 'my';
+    &.left{
+      float:left;
+      padding:40px 0 0 20px;
+    }
+    &.right{
+      float:right;
+      padding:40px 20px 0 0;
+    }
+    @media screen and (max-width:980px){
+      position:fixed;
+      background:#fff;
+      background:-webkit-linear-gradient(left,$secondaryColor,#fff 5px);
+      float:left;
+      top:0;
+      left:-2.75rem;
+      z-index:10001;
+      width:2.75rem;
+      height:100%;
+      padding:.3rem .2rem 0 20px;
+      @include transition(all,.5s);
+      color:#fff;
+      border-right:0px solid $mainColor;
+    }
   }
 }

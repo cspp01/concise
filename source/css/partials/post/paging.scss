@@ -3,6 +3,9 @@
   margin:10px 0 30px;
   color:#4c4c4c;
   font-size:15px;
+  @media screen and (max-width:980px){
+    font-size:.15rem;
+  }
   a.extend{
     .index-prev{
       padding:7px 12px;
@@ -25,6 +28,9 @@
     padding:7px 13px;
     @include border-radius(50%);
     margin:0 5px;
+    @media screen and (max-width:980px){
+      padding:.07rem .13rem;
+    }
     &:hover{
       text-decoration:underline;
     }

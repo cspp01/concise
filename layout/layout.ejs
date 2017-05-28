@@ -2,20 +2,25 @@
 <html>
 <%- partial('partials/head')%>
 <body>
+<input type="checkbox" id="left-information">
 <div id="wrapper">
     <div id="bgg"></div>
     <%- partial('partials/header',{},{cache:true})%>
     <%- partial('partials/logo',{},{cache:true})%>
     <div id="main" class="clearfix">
-        <section id="main-left">
+        <section id="main-left" class="<%=theme.sidebar.content%>">
             <%- body%>
         </section>
-        <section id="main-right">
+        <section id="main-right" class="<%=theme.sidebar.my%>">
             <%- partial('partials/my',{},{cache:true})%>
         </section>
     </div>
     <%- partial('partials/footer',{},{cache:true})%>
 </div>
-<%- partial('thirdparty/search/algolia.ejs',{},{cache:true})%>
+<label for="left-information"></label>
+<%- partial('partials/m',{},{cache:true})%>
+<%- partial('thirdparty/search/algolia',{},{cache:true})%>
+<%- partial('thirdparty/view/leanCloud',{},{cache:true})%>
+<%- partial('thirdparty/seo/baidu',{},{cache:true})%>
 </body>
 </html>

@@ -1,22 +1,60 @@
 <article id="post">
     <h1><%=page.title%></h1>
     <p>
-        <span class="visitors">visitors 4</span>&nbsp;&nbsp;•&nbsp;&nbsp;
-        <span class="tag">
-      <%- list_categories(page.categories, {
-          show_count: false,
-          class: 'article-category',
-          style: 'none',
-          separator: '&nbsp;,&nbsp;'
-      }) %>
-    </span>&nbsp;&nbsp;•&nbsp;&nbsp;
-        <span class="date"><%= date(page.date,'YYYY,MM,DD')%></span>
+        <%if(theme.leancloud_view.open){%>
+            <span class="visitors">visitors
+                <span id="<%- url_for(page.path)%>" class="leancloud_visitors" data-flag-title="<%=page.title%>">
+                    <span class="leancloud-visitors-count">0</span>
+                </span>
+            </span>&nbsp;&nbsp;•&nbsp;&nbsp;
+        <%}%>
+        <%if(page.categories.length>0){%>
+            <span class="tag">
+                  <%- list_categories(page.categories, {
+                      show_count: false,
+                      class: 'article-category',
+                      style: 'none',
+                      separator: '&nbsp;,&nbsp;'
+                  }) %>
+            </span>&nbsp;&nbsp;•&nbsp;&nbsp;
+        <%}%>
+        <span class="date"><%= date(page.date,'YYYY.MM.DD')%></span>
     </p>
     <div id="page-post-content">
         <%-page.content%>
     </div>
+    <%if(page.categories.length>0){%>
+        <div id="page-post-tags">
+              <%- list_tags(page.tags, {
+                  show_count: false,
+                  class: 'article-tag',
+                  style: 'none',
+                  separator: '&nbsp;/&nbsp;'
+              }) %>
+        </div>
+    <%}%>
+    <%if(theme.reward.open){%>
+        <div id="page-post-reward">
+            <label for="page-post-inp">打赏</label>
+            <input type="checkbox" id="page-post-inp">
+            <ul class="clearfix">
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="<%=theme.reward.weixing%>">
+                    </a>
+                    <p>微信</p>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <img src="<%=theme.reward.alipay%>">
+                    </a>
+                    <p>支付宝</p>
+                </li>
+            </ul>
+        </div>
+    <%}%>
+    <%- partial('post/nav',{post: page})%>
 </article>
-<<%- partial('../additional/exceptional')%>
 <% if(theme.baidushare.open){%>
 <%- partial('../thirdparty/share/baiduShare')%>
 <%}%>

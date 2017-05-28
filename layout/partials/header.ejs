@@ -1,12 +1,15 @@
 <header id="header">
     <nav id="nav" class="clearfix">
-        <ul class="clearfix nav-left">
+        <label for="left-information"></label>
+        <ul class='nav-left'>
+            <li><a href="<%- url_for(theme.menu['home'])%>"><%-theme.logo%></a></li>
+        </ul>
+        <input type="checkbox" id="header-right-nav">
+        <ul class="clearfix nav-right">
             <%for(name in theme.menu){%>
-                <li><a href="<%- url_for(theme.menu[name])%>"><%=name%></a></li>
+            <li><a href="<%- url_for(theme.menu[name])%>"><%=name%></a></li>
             <%}%>
         </ul>
-        <ul class='nav-right'>
-            <li><a href="<%- url_for(theme.menu['home'])%>"></a></li>
-        </ul>
+        <label for="header-right-nav"><i></i></label>
     </nav>
 </header>

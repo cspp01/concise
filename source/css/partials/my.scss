@@ -6,6 +6,10 @@
       height:$my-img-wh;
       margin:0 auto;
       position:relative;
+      @media screen and (max-width:980px){
+        width:1.5rem;
+        height:1.5rem;
+      }
       img{
         width:100%;
         @include border-radius(50%);
@@ -25,6 +29,10 @@
         bottom:0;
         right:0;
         @include transition(all,.5s);
+        @media screen and (max-width:980px){
+          width:.4rem;
+          height:.4rem;
+        }
         &:hover{
           @include transform(rotate(180deg));
         }
@@ -76,6 +84,10 @@
       line-height:30px;
       font-size:20px;
       color:#555;
+      @media screen and (max-width:980px){
+        line-height:.3rem;
+        font-size:.2rem;
+      }
     }
   }
   .my-social{
@@ -95,6 +107,10 @@
       position:relative;
       @include transition(all,.3s);
       @include border-radius(20px);
+      @media screen and (max-width:980px){
+        font-size:.15rem;
+        line-height:.4rem;
+      }
       &:before{
         $wh:9px;
         content:'';
@@ -105,6 +121,11 @@
         background-color:lightcoral;
         margin:0 10px;
         vertical-align:middle;
+        @media screen and (max-width:980px){
+          width:.09rem;
+          height:.09rem;
+          margin:0 .1rem;
+        }
       }
       &:after{
         content:'';
@@ -150,6 +171,9 @@
     border-bottom:1px dotted #ccc;
     font-size:0;
     padding:20px 0;
+    @media screen and (max-width:980px){
+      padding:.2rem 0;
+    }
     a{
       display:inline-block;
       width:(100%) / 3;
@@ -172,6 +196,9 @@
     .my-rss,.search{
       padding:20px 0;
       text-align:center;
+      @media screen and (max-width:980px){
+        display:none;
+      }
       a{
         display:inline-block;
         width:90%;
@@ -194,6 +221,10 @@
     }
     .my-search{
       @extend .my-rss;
+      @media screen and (max-width:980px){
+        display:block;
+        font-size:0;
+      }
       a{
         border-color:$btnColor;
         color:$btnColor;
@@ -203,6 +234,9 @@
   }
   .my-links{
     margin-top:20px;
+    @media screen and (max-width:980px){
+      display:none;
+    }
     li{
       float:left;
       width:(80%)/3;
