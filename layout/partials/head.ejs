@@ -1,7 +1,33 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>concise</title>
+    <%
+    var title = page.title;
+
+    if (is_archive()){
+        title = __('archive');
+
+        if (is_month()){
+            title += ': ' + page.year + '/' + page.month;
+        } else if (is_year()){
+            title += ': ' + page.year;
+        }
+    } else if (is_category()){
+        title = __('category') + ': ' + page.category;
+    } else if (is_tag()){
+        title = __('tag') + ': ' + page.tag;
+    } else if(is_post()){
+        title = __('post');
+    }
+    %>
+    <title><% if (title){ %><%= title %> | <% } %><%= theme.title %></title>
+    <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
+    <% if (theme.rss){ %>
+        <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
+    <% } %>
+    <% if (theme.favicon){ %>
+        <link rel="icon" href="<%- theme.favicon %>">
+    <% } %>
     <%- css('css/concise.css')%>
     <%- js('js/concise.js')%>
     <script>
@@ -26,26 +52,30 @@
             }
         })();
     </script>
-    <script type="text/javascript" id="hexo.configuration">
-        var CONFIG = {
-            root: '/',
-            algolia: {
-                applicationID: '<%= theme.algolia.applicationID%>',
-                apiKey: '<%= theme.algolia.apiKey%>',
-                indexName: '<%= theme.algolia.indexName%>',
-                hits: {
-                    per_page: '<%theme.algolia.hits.per_page%>'
-                },
-                labels: {
-                    input_placeholder: '<%= theme.algolia.labels.input_placeholder%>',
-                    hits_empty: '<%= theme.algolia.labels.hits_empty%>',
-                    hits_stats: '<%= theme.algolia.labels.hits_stats%>'
+    <%if(theme.algolia.open){%>
+        <script type="text/javascript" id="hexo.configuration">
+            var CONFIG = {
+                root: '/',
+                algolia: {
+                    applicationID: '<%= theme.algolia.applicationID%>',
+                    apiKey: '<%= theme.algolia.apiKey%>',
+                    indexName: '<%= theme.algolia.indexName%>',
+                    hits: {
+                        per_page: '<%theme.algolia.hits.per_page%>'
+                    },
+                    labels: {
+                        input_placeholder: '<%= theme.algolia.labels.input_placeholder%>',
+                        hits_empty: '<%= theme.algolia.labels.hits_empty%>',
+                        hits_stats: '<%= theme.algolia.labels.hits_stats%>'
+                    }
                 }
-            }
-        };
-    </script>
+            };
+        </script>
+    <%}%>
     <script src="http://opu30aljn.bkt.clouddn.com/jquery.js"></script>
-    <script src="http://opu30aljn.bkt.clouddn.com/instantsearch.js"></script>
-    <%- js('js/thirdparty/algolia.js')%>
+    <%if(theme.algolia.open){%>
+        <script src="http://opu30aljn.bkt.clouddn.com/instantsearch.js"></script>
+        <%- js('js/thirdparty/algolia.js')%>
+    <%}%>
     <%- js('js/script.js')%>
 </head>

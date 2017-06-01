@@ -19,7 +19,7 @@
         <span class="date"><%= date(post.date,'YYYY,MM,DD')%></span>
     </p>
     <div class="post-image">
-        <a href="<%- url_for(post.path)%>"><img src="<%- post.pho%>"></a>
+        <a href="<%- url_for(post.path)%>"><img src="<%if(post.pho){%><%- post.pho%><%}else{%>defimg.png<%}%>"></a>
     </div>
     <%if(theme.index_pagelength||theme.index_pagelength=='0'){%>
         <% var con=post.content.replace(/<[^<]*>/ig,'').replace(/\r|\n/ig,'').substring(0,theme.index_pagelength)+'...';%>

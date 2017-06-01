@@ -2,34 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46186faa-7570-4c83-95bd-89ff1f849b25" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/partials/post/category.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/partials/post/date.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/partials/post/gallery.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/partials/post/tag.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/partials/post/title.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/logo-ion-check-radio.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/favicon.ico" afterPath="$PROJECT_DIR$/source/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/layout.ejs" afterPath="$PROJECT_DIR$/layout/layout.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/partials/article.ejs" afterPath="$PROJECT_DIR$/layout/partials/article.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/partials/footer.ejs" afterPath="$PROJECT_DIR$/layout/partials/footer.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/partials/head.ejs" afterPath="$PROJECT_DIR$/layout/partials/head.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/partials/header.ejs" afterPath="$PROJECT_DIR$/layout/partials/header.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/partials/logo.ejs" afterPath="$PROJECT_DIR$/layout/partials/logo.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/partials/page.ejs" afterPath="$PROJECT_DIR$/layout/partials/page.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/partials/post/nav.ejs" afterPath="$PROJECT_DIR$/layout/partials/post/nav.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/categories.scss" afterPath="$PROJECT_DIR$/source/css/categories.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/concise.scss" afterPath="$PROJECT_DIR$/source/css/concise.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/page.scss" afterPath="$PROJECT_DIR$/source/css/page.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/partials/category.scss" afterPath="$PROJECT_DIR$/source/css/partials/category.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/partials/footer.scss" afterPath="$PROJECT_DIR$/source/css/partials/footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/partials/header.scss" afterPath="$PROJECT_DIR$/source/css/partials/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/partials/logo.scss" afterPath="$PROJECT_DIR$/source/css/partials/logo.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/partials/main.scss" afterPath="$PROJECT_DIR$/source/css/partials/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/partials/my.scss" afterPath="$PROJECT_DIR$/source/css/partials/my.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/partials/post.scss" afterPath="$PROJECT_DIR$/source/css/partials/post.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/partials/post/paging.scss" afterPath="$PROJECT_DIR$/source/css/partials/post/paging.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/public/public.scss" afterPath="$PROJECT_DIR$/source/css/public/public.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/css/thirdparty/algolia.scss" afterPath="$PROJECT_DIR$/source/css/thirdparty/algolia.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/js/concise.js" afterPath="$PROJECT_DIR$/source/js/concise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/thirdparty/search/algolia.ejs" afterPath="$PROJECT_DIR$/layout/thirdparty/search/algolia.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,24 +38,14 @@
     <favorites_list name="concise" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43314138">
+    <splitter split-orientation="horizontal" split-proportion="0.21880998">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="header.ejs" pinned="false" current-in-tab="false">
+          <file leaf-file-name="header.ejs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/layout/partials/header.ejs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="132">
-                  <caret line="4" column="73" lean-forward="false" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="nav.ejs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/layout/partials/post/nav.ejs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="759">
-                  <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+                  <caret line="4" column="60" lean-forward="false" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
                   <folding />
                 </state>
               </provider>
@@ -72,8 +54,8 @@
           <file leaf-file-name="article.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/layout/partials/article.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="33">
-                  <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="62" />
+                <state relative-caret-position="396">
+                  <caret line="21" column="104" lean-forward="false" selection-start-line="21" selection-start-column="104" selection-end-line="21" selection-end-column="104" />
                   <folding />
                 </state>
               </provider>
@@ -95,21 +77,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../../../新建文件夹/hexo-theme-unit-test/_config.yml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="511">
-                  <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="categories.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/layout/categories.ejs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="132">
-                  <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+                  <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -119,7 +91,7 @@
             <entry file="file://$PROJECT_DIR$/layout/partials/logo.ejs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="264">
-                  <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+                  <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
@@ -128,18 +100,8 @@
           <file leaf-file-name="page.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/layout/partials/page.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1023">
+                <state relative-caret-position="789">
                   <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="nav.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/source/css/partials/post/nav.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -148,8 +110,8 @@
           <file leaf-file-name="head.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/layout/partials/head.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="759">
-                  <caret line="23" column="84" lean-forward="false" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
+                <state relative-caret-position="0">
+                  <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
                   <folding />
                 </state>
               </provider>
@@ -159,22 +121,10 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="page.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/source/css/page.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="134">
-                  <caret line="175" column="25" lean-forward="true" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#780#3496#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/source/css/partials/header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="429">
+                <state relative-caret-position="3399">
                   <caret line="103" column="41" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
                   <folding />
                 </state>
@@ -184,38 +134,48 @@
           <file leaf-file-name="layout.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/layout/layout.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="63" />
+                <state relative-caret-position="396">
+                  <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="concise.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/source/css/concise.scss">
+          <file leaf-file-name="my.ejs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/layout/partials/my.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+                <state relative-caret-position="462">
+                  <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../_config.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/source/css/partials/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
+                <state relative-caret-position="761">
                   <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="public.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/source/css/public/public.scss">
+          <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/layout/partials/footer.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="629">
-                  <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+                <state relative-caret-position="33">
+                  <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="38" />
                   <folding />
                 </state>
               </provider>
@@ -224,7 +184,7 @@
           <file leaf-file-name="logo.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/source/css/partials/logo.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
+                <state relative-caret-position="561">
                   <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
                   <folding />
                 </state>
@@ -236,16 +196,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="198">
                   <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/_config.yml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="429">
-                  <caret line="130" column="11" lean-forward="false" selection-start-line="130" selection-start-column="11" selection-end-line="130" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -268,7 +218,6 @@
       <find>sidebar</find>
       <find>$p</find>
       <find>weibo</find>
-      <find>github</find>
       <find>rss</find>
       <find>algolia_search</find>
       <find>trigger</find>
@@ -289,6 +238,8 @@
       <find>leancloud_visitors</find>
       <find>logo</find>
       <find>popup</find>
+      <find>rss:</find>
+      <find>github</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -297,17 +248,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/layout/po.ejs" />
-        <option value="$PROJECT_DIR$/source/po.ejs" />
-        <option value="$PROJECT_DIR$/layout/partials/archive.ejs" />
-        <option value="$PROJECT_DIR$/source/about/index.md" />
-        <option value="$PROJECT_DIR$/layout/thirdparty/Uyan.ejs" />
         <option value="$PROJECT_DIR$/layout/thirdparty/netEaseCloudComment.ejs" />
         <option value="$PROJECT_DIR$/layout/thirdparty/comment/netEaseCloudComment.ejs" />
         <option value="$PROJECT_DIR$/layout/tags.ejs" />
         <option value="$PROJECT_DIR$/layout/thirdparty/share/baiduShare.ejs" />
         <option value="$PROJECT_DIR$/layout/thirdparty/statistical/umen.ejs" />
-        <option value="$PROJECT_DIR$/layout/partials/footer.ejs" />
         <option value="$PROJECT_DIR$/../../source/_posts/css颜色表示种类.md" />
         <option value="$PROJECT_DIR$/layout/tagss.ejs" />
         <option value="$PROJECT_DIR$/layout/404.ejs" />
@@ -317,12 +262,9 @@
         <option value="$PROJECT_DIR$/layout/page.ejs" />
         <option value="$PROJECT_DIR$/layout/additional/exceptional.ejs" />
         <option value="$PROJECT_DIR$/../../_config.yml" />
-        <option value="$PROJECT_DIR$/layout/partials/my.ejs" />
         <option value="$PROJECT_DIR$/source/js/script.js" />
         <option value="$PROJECT_DIR$/layout/thirdparty/view/leanCloud.ejs" />
-        <option value="$PROJECT_DIR$/layout/partials/article.ejs" />
         <option value="$PROJECT_DIR$/layout/thirdparty/seo/baidu.ejs" />
-        <option value="$PROJECT_DIR$/layout/partials/head.ejs" />
         <option value="$PROJECT_DIR$/source/css/partials/post.scss" />
         <option value="$PROJECT_DIR$/source/css/partials/footer.scss" />
         <option value="$PROJECT_DIR$/source/css/partials/post/paging.scss" />
@@ -341,12 +283,21 @@
         <option value="$PROJECT_DIR$/source/js/concise.js" />
         <option value="$PROJECT_DIR$/layout/partials/page.ejs" />
         <option value="$PROJECT_DIR$/source/css/page.scss" />
-        <option value="$PROJECT_DIR$/layout/partials/header.ejs" />
         <option value="$PROJECT_DIR$/layout/partials/logo.ejs" />
         <option value="$PROJECT_DIR$/source/css/public/public.scss" />
         <option value="$PROJECT_DIR$/source/css/partials/header.scss" />
         <option value="$PROJECT_DIR$/layout/layout.ejs" />
         <option value="$PROJECT_DIR$/source/css/partials/main.scss" />
+        <option value="$PROJECT_DIR$/../../../hexo/hexo/source/_posts/css水平垂直居中.md" />
+        <option value="$PROJECT_DIR$/../../../hexo/hexo/source/_posts/hexo主题配置和修改样式.md" />
+        <option value="$PROJECT_DIR$/../../../hexo/hexo/source/_posts/伪类和伪元素的区别.md" />
+        <option value="$PROJECT_DIR$/../../../hexo release/site/source/_data/themes.yml" />
+        <option value="$PROJECT_DIR$/layout/partials/my.ejs" />
+        <option value="$PROJECT_DIR$/layout/thirdparty/search/algolia.ejs" />
+        <option value="$PROJECT_DIR$/layout/partials/head.ejs" />
+        <option value="$PROJECT_DIR$/layout/partials/footer.ejs" />
+        <option value="$PROJECT_DIR$/layout/partials/article.ejs" />
+        <option value="$PROJECT_DIR$/layout/partials/header.ejs" />
         <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
@@ -379,6 +330,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -557,6 +509,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="thirdparty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="concise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -581,7 +555,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -721,11 +694,14 @@
       <workItem from="1495766677611" duration="1000" />
       <workItem from="1495766696191" duration="1000" />
       <workItem from="1495766703762" duration="14676000" />
+      <workItem from="1496294054841" duration="1000" />
+      <workItem from="1496294066135" duration="2478000" />
+      <workItem from="1496319954394" duration="4440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304695000" />
+    <option name="totallyTimeSpent" value="311614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -771,56 +747,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../next/layout/index.swig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../next/layout/_scripts/commons.swig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/thirdparty/view/leanCloud.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="91" column="41" lean-forward="false" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../landscape/layout/post.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/post.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/tag.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/partials/post/tag.ejs" />
-    <entry file="file://$PROJECT_DIR$/../landscape/layout/_partial/article.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../next/layout/_macro/post.swig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6237">
@@ -886,14 +812,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.805/web前端 第一阶段/12 移动端/06 js.html" />
-    <entry file="file://$PROJECT_DIR$/layout/partials/head.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="23" column="84" lean-forward="false" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/css/partials/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -937,13 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layout/partials/my.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="55" column="6" lean-forward="true" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../source/_posts/css水平垂直居中.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -955,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
           <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8382">
           <caret line="254" column="3" lean-forward="false" selection-start-line="254" selection-start-column="3" selection-end-line="254" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,14 +887,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1617">
           <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/categories.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -995,6 +902,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3246">
           <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/css/page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="175" column="25" lean-forward="true" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
+          <folding>
+            <element signature="e#780#3496#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/css/concise.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/css/partials/logo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/css/partials/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3399">
+          <caret line="103" column="41" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/partials/logo.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/partials/archive.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../hexo/hexo/source/_posts/hexo主题配置和修改样式.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../hexo/hexo/source/_posts/伪类和伪元素的区别.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../hexo/hexo/source/_posts/伪类和伪元素的区别 - 副本.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../hexo release/site/source/_data/themes.yml" />
+    <entry file="file://$PROJECT_DIR$/../../../hexo/hexo/source/_posts/css水平垂直居中.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="57" column="15" lean-forward="false" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../新建文件夹/hexo-theme-unit-test/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1013,96 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layout/partials/article.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/css/page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="175" column="25" lean-forward="true" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
-          <folding>
-            <element signature="e#780#3496#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/partials/page.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/partials/header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="73" lean-forward="false" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/css/concise.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/css/partials/logo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/css/partials/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="103" column="41" lean-forward="true" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/partials/logo.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../新建文件夹/hexo-theme-unit-test/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/partials/archive.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/css/partials/my.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1111,9 +1014,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/layout/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/partials/my.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/thirdparty/search/algolia.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/partials/page.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/partials/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/partials/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/partials/article.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="104" lean-forward="false" selection-start-line="21" selection-start-column="104" selection-end-line="21" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/partials/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="60" lean-forward="false" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/css/public/public.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state relative-caret-position="761">
           <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
           <folding />
         </state>
@@ -1121,16 +1104,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/css/partials/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="761">
           <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="130" column="11" lean-forward="false" selection-start-line="130" selection-start-column="11" selection-end-line="130" selection-end-column="11" />
           <folding />
         </state>
       </provider>

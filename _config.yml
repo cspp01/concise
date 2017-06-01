@@ -1,28 +1,28 @@
 
 # html lang
 language: en
-
+title: conci
 # main information
 my_img: http://ooa3lxrpg.bkt.clouddn.com/b.jpg?imageView2/1/w/120/h/120/q/75
 my_name: cc
 autograph: 求知若饥 虚心若愚
 social: /
-logo: concise #<img src="./logo.png">
+logo: conci #<img src="./logo.png">
 
 # main menu navigation
 menu:
   Home: /
-  About: /about
-  Contact: /contact
+  #About: /about
+  #Contact: /contact
   Archives: /archives
   tags: /tags
 
 #logo information
 inf:
-  name: concise.theme
+  name: conci.theme
   superscript: hexo
   describe:
-    one: concise version 1.0.0
+    one: conci version 1.0.0
     two: Simple and practical hexo personal blog theme.
     three: The freedom to choose
 # my
@@ -35,10 +35,10 @@ my_social:
   知乎: /
 
 # Miscelaneous
-favicon: /favicon.ico
+favicon: ./favicon.ico
 
 # rss
-rss: true
+rss: false
 
 # main links
 my_links:
@@ -64,9 +64,9 @@ index_pagelength: 200
 # search
 # algolia search
 algolia:
+  open: false
   applicationID: 148WKKLBJ2
   apiKey: 1b27867f0ba7ad358543a84d6d30bcb3
-  #adminApiKey: d01e3e88a1d84bfc40b91d6d77451039
   indexName: test
   chunkSize: 5000
   hits:
@@ -79,7 +79,7 @@ algolia:
 # comment
 # netease cloud comment
 netease_cloud_comment:
-  open: true
+  open: false
   productKey: 6f0492a87f74476e9df370e5e7ce2270
   hotPage: false
 
@@ -90,15 +90,15 @@ uYan:
 
 # share
 baidushare:
-  open: true
+  open: false
 
 # statistical
 umen:
- open: true
+ open: false
 
 # 阅读数统计
 leancloud_view:
-  open: true
+  open: false
   sql_name: ccp #leancloud新建的class名字，尽量不要随便更改
   app_id: GIro8Qd31eQHaDFeUnvpSDaP-gzGzoHsz #你的app_id
   app_key: ozedpz4nGJSoFS5nR0kLUrXV #你的的app_key
@@ -106,7 +106,7 @@ leancloud_view:
 #seo
 #baidu
 seo:
-  baidu: true
+  baidu: false
 
 # post文章
 # 打赏
@@ -122,6 +122,7 @@ reward:
 
 # footer github start
 github:
+  open: false
   user: cspp01
   repo: cspp01.github.io
 
